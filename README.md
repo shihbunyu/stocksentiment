@@ -40,6 +40,10 @@ streamlit run app.py
    - Trade Statistics: Performance metrics and profit distribution
    - Detailed Trades: Complete list of all trades with their details
 
+## Demo
+
+https://project-trading-63.streamlit.app/
+
 ## Strategy Details
 
 The trading strategy is based on the Golden Cross pattern:
