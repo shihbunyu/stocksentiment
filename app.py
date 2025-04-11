@@ -14,7 +14,8 @@ except LookupError as e:
     print(f"Downloading missing NLTK data: {str(e)}")
 
 def display_news():
-    # ...existing display_news function code...
+    st.title("Stock Sentiment Analysis")
+    st.write("Welcome to the Stock Sentiment Analysis tool")
 
 if __name__ == "__main__":
     display_news()
