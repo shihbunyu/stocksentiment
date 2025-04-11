@@ -1,55 +1,29 @@
-# Stock News Sentiment Analysis
+# Stock Sentiment Analysis
 
-Analyze stock news sentiment and correlate it with stock price movements using Finnhub API and machine learning.
+A Python application that analyzes stock market sentiment using news data and correlates it with price movements.
 
 ## Features
-- Real-time stock news analysis
-- Sentiment scoring (1-10 scale)
-- Keyword extraction using TF-IDF
+- News sentiment analysis
+- Keyword extraction
 - News categorization
 - Price-sentiment correlation
-- Interactive Streamlit dashboard
+- Interactive visualization
 
-## Prerequisites
-- Python 3.8+
-- Finnhub API key
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Sentiment-Analysis-and-Stock-Correlation.git
-cd Sentiment-Analysis-and-Stock-Correlation
-```
-
-2. Install dependencies:
+## Setup
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file and add your Finnhub API key:
-```
-FINNHUB_API_KEY=your_api_key_here
-```
+2. Configure Finnhub API key in `utils/stock_data.py`
 
-## Usage
-Run the Streamlit app:
+3. Run the application:
 ```bash
 streamlit run app.py
 ```
 
-## Project Structure
-```
-├── utils/
-│   ├── sentiment_analysis.py
-│   └── stock_data.py
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first.
-
-## License
-MIT
+## Structure
+- `app.py`: Main Streamlit application
+- `utils/`: Utility functions
+  - `sentiment_analysis.py`: Text analysis functions
+  - `stock_data.py`: Stock data retrieval
