@@ -1,6 +1,10 @@
-pandas>=1.5.0
-numpy>=1.21.0
-yfinance>=0.2.0
-streamlit>=1.22.0
-plotly>=5.13.0
-matplotlib>=3.5.0 
+finnhub-python
+streamlit
+pandas
+textblob
+scikit-learn
+nltk
+numpy
+yfinance
+plotly
+scipy
